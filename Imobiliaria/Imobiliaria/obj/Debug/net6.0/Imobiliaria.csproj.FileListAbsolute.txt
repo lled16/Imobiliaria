@@ -82,3 +82,6 @@ C:\Users\55319\Documents\Imobiliária\Imobiliaria\Imobiliaria\obj\Debug\net6.0\r
 C:\Users\55319\Documents\Imobiliária\Imobiliaria\Imobiliaria\obj\Debug\net6.0\Imobiliaria.pdb
 C:\Users\55319\Documents\Imobiliária\Imobiliaria\Imobiliaria\obj\Debug\net6.0\Imobiliaria.genruntimeconfig.cache
 C:\Users\55319\Documents\Imobiliária\Imobiliaria\Imobiliaria\obj\Debug\net6.0\ref\Imobiliaria.dll
+C:\Users\55319\Documents\Imobiliária\Imobiliaria\Imobiliaria\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\55319\Documents\Imobiliária\Imobiliaria\Imobiliaria\bin\Debug\net6.0\AutoMapper.Data.dll
+C:\Users\55319\Documents\Imobiliária\Imobiliaria\Imobiliaria\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
