@@ -22,9 +22,9 @@ namespace Imobiliaria.Controllers
         [HttpGet("ListaClientes")]
         public List<CadastroLocatarioModel> ListaClientes()
         {
-            List<CadastroLocatarioModel> Clientes = _locatarioServices.ListaClientes();
+            List<CadastroLocatarioModel> clientes = _locatarioServices.ListaClientes();
 
-            return Clientes;
+            return clientes;
 
         }
 
@@ -32,8 +32,8 @@ namespace Imobiliaria.Controllers
         public List<CadastroLocatarioModel> ListaClientesPorCPF(long CPF)
         {
 
-            List<CadastroLocatarioModel> ClientesPorCPF = _locatarioServices.ListaClientesPorCPF(CPF);
-            return ClientesPorCPF;
+            List<CadastroLocatarioModel> clientesPorCPF = _locatarioServices.ListaClientesPorCPF(CPF);
+            return clientesPorCPF;
         }
 
 

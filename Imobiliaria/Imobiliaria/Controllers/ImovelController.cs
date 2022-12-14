@@ -16,9 +16,9 @@ namespace Imobiliaria.Controllers
         [HttpPost("CadastraImovel")]
         public string CadastroImovel(CadastroImovelModel Imovel)
         {
-            string CadastrandoImovel = _imovelServices.CadastroImovel(Imovel);
+            string cadastrandoImovel = _imovelServices.CadastroImovel(Imovel);
 
-            return CadastrandoImovel;
+            return cadastrandoImovel;
         }
 
         [HttpDelete("DeletaImovel")]
@@ -34,34 +34,34 @@ namespace Imobiliaria.Controllers
         [HttpGet("ListaImoveis")]
         public List<CadastroImovelDTO> ListaImoveis()
         {
-            List<CadastroImovelDTO> Imoveis = _imovelServices.ListarImoveis();
+            List<CadastroImovelDTO> imoveis = _imovelServices.ListarImoveis();
 
-            return Imoveis;
+            return imoveis;
 
         }
 
         [HttpGet("ListaImoveisPorCodigo")]
         public List<CadastroImovelDTO> ListaImoveisPorCodigo(int CODIGO)
         {
-            List<CadastroImovelDTO> Imoveis = _imovelServices.ListarImoveisPorCodigo(CODIGO);
-            return Imoveis;
+            List<CadastroImovelDTO> imoveis = _imovelServices.ListarImoveisPorCodigo(CODIGO);
+            return imoveis;
         }
 
         [HttpPut("LocarImovel")]
         public string LocarImovel(string CPF, int CODIGO)
         {
-            string LocandoImovel = _imovelServices.LocarImovel(CPF, CODIGO);
+            string locandoImovel = _imovelServices.LocarImovel(CPF, CODIGO);
 
-            return LocandoImovel;
+            return locandoImovel;
 
         }
 
         [HttpPut("RemoveLocacao")]
         public string RemoveLocacao(int CODIGO)
         {
-            string RemoveLocacaoImovel = _imovelServices.RemoveLocacao(CODIGO);
+            string removeLocacaoImovel = _imovelServices.RemoveLocacao(CODIGO);
 
-            return RemoveLocacaoImovel;
+            return removeLocacaoImovel;
         }
     }
 }
